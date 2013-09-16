@@ -32,8 +32,11 @@ Author URI: http://mariowise.wordpress.com
 $font_grey: rgb(100,100,100);
 $font_blue: rgb(54,82,168);
 
+$header_blue: rgb(17, 71, 131);
+$footer_grey: rgb(250,250,250);
+
 // TECNICA DE FOOTER ABAJO /////////////////////////////////////////////////////////
-$footer_height : 50px;
+$footer_height : 186px;
 
 html, body {
 	height: 100%;
@@ -47,7 +50,7 @@ body {
 	position: relative;
 }
 #wrapper-ghost {
-	height: calc($footer_height+20px);
+	height: $footer_height;
 	width: 100%;
 }
 footer {
@@ -57,12 +60,47 @@ footer {
 	/*height: $footer_height;*/
 }
 
+// header //////////////////////////////////////////////////////////////////////////
+#header {
+	& > .background {
+		position: absolute;
+		background-color: $header_blue;
+		width: 100%;
+		height: 314px;
+		border-bottom: 5px solid orange;
+		& > canvas {
+			height: 100%;
+			width: 100%;
+		}
+	}
+	& > #logo-menu {
+		margin-top: 15px;
+		margin-bottom: 15px;	
+	}
+}
+
+// carrousel ///////////////////////////////////////////////////////////////////////
+/*.orbit-container .orbit-slides-container>* .orbit-caption {
+	position: absolute;
+	left: 4%;
+	bottom: 0;
+	background-color: #000;
+	background-color: rgba(255, 122, 0, 0.85);
+	color: #fff;
+	width: 36%;
+	padding: 25px 25px;
+	font-size: 0.875em;
+}*/
+.slideshow-wrapper {
+	box-shadow: 0px 6px 5px rgb(95, 87, 87);
+}
+
 // footer //////////////////////////////////////////////////////////////////////////
 footer {
 	color: $font_blue;
 }
 footer > div {
-	background-color: rgb(250,250,250);
+	background-color: $footer_grey;
 }
 #footer-big > .row > div > div:first-child {
 	margin-top: 20px;

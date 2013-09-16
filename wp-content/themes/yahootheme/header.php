@@ -24,14 +24,43 @@
 			<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->
 		
+		<!-- CSS -->
 		<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
-
 		<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/stylesheets/yahootheme.css">
+
+		<!-- JS -->
+		<script type="text/javascript" src="<?php bloginfo('template_directory');?>/javascripts/vendor/custom.modernizr.js"></script>
 
 	</head>
 
 	<body>
 
 		<div id="wrapper">
+
+
+			<div id="header">
+
+				<div class="background">
+					<canvas id="header-background-canvas"></canvas>
+					<script type="text/javascript" src="<?php bloginfo('template_directory');?>/javascripts/mariowise/box-animation.js"></script>
+				</div>
+
+				<div class="row">
+					<div class="large-3 large-offset-9 columns">
+						Links especiales
+					</div>
+				</div>
+				<div id="logo-menu" class="row">
+					<div class="small-3 columns">
+						LOGO
+					</div>
+					<div class="small-9 columns">
+						MENU
+					</div>
+				</div>
+
+			</div>
+
+
 
 			
