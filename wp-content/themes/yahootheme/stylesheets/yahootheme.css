@@ -1,5 +1,6 @@
 @charset "UTF-8";
 @import url(http://fonts.googleapis.com/css?family=Noto+Sans:400,700,400italic,700italic);
+@import url(http://fonts.googleapis.com/css?family=Oswald:400,700,300);
 /*
 Theme Name: YahooTheme
 Theme URI: http://www.informatica.usach.cl/
@@ -11385,30 +11386,30 @@ a [class*=" icon-"] {
   *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xf18b;');
 }
 
-/* line 41, ../sass/yahootheme.scss */
+/* line 45, ../sass/yahootheme.scss */
 html, body {
   height: 100%;
 }
 
-/* line 44, ../sass/yahootheme.scss */
+/* line 48, ../sass/yahootheme.scss */
 body {
   font-family: 'Noto Sans', sans-serif;
   margin: 0px;
 }
 
-/* line 48, ../sass/yahootheme.scss */
+/* line 52, ../sass/yahootheme.scss */
 #wrapper {
   min-height: 100%;
   position: relative;
 }
 
-/* line 52, ../sass/yahootheme.scss */
+/* line 56, ../sass/yahootheme.scss */
 #wrapper-ghost {
-  height: 186px;
+  height: 230px;
   width: 100%;
 }
 
-/* line 56, ../sass/yahootheme.scss */
+/* line 60, ../sass/yahootheme.scss */
 footer {
   width: 100%;
   position: absolute;
@@ -11416,7 +11417,7 @@ footer {
   /*height: $footer_height;*/
 }
 
-/* line 65, ../sass/yahootheme.scss */
+/* line 69, ../sass/yahootheme.scss */
 #header > .background {
   position: absolute;
   background-color: #114783;
@@ -11424,12 +11425,12 @@ footer {
   height: 314px;
   border-bottom: 5px solid orange;
 }
-/* line 71, ../sass/yahootheme.scss */
+/* line 75, ../sass/yahootheme.scss */
 #header > .background > canvas {
   height: 100%;
   width: 100%;
 }
-/* line 76, ../sass/yahootheme.scss */
+/* line 80, ../sass/yahootheme.scss */
 #header > #logo-menu {
   margin-top: 15px;
   margin-bottom: 15px;
@@ -11446,44 +11447,44 @@ footer {
 	padding: 25px 25px;
 	font-size: 0.875em;
 }*/
-/* line 94, ../sass/yahootheme.scss */
+/* line 98, ../sass/yahootheme.scss */
 .slideshow-wrapper {
   box-shadow: 0px 6px 5px #5f5757;
 }
 
-/* line 99, ../sass/yahootheme.scss */
+/* line 103, ../sass/yahootheme.scss */
 footer {
   color: #3652a8;
 }
 
-/* line 102, ../sass/yahootheme.scss */
+/* line 106, ../sass/yahootheme.scss */
 footer > div {
   background-color: #fafafa;
 }
 
-/* line 105, ../sass/yahootheme.scss */
+/* line 109, ../sass/yahootheme.scss */
 #footer-big > .row > div > div:first-child {
   margin-top: 20px;
 }
 
-/* line 108, ../sass/yahootheme.scss */
+/* line 112, ../sass/yahootheme.scss */
 #footer-big ul {
   margin-top: 10px;
 }
 
-/* line 111, ../sass/yahootheme.scss */
+/* line 115, ../sass/yahootheme.scss */
 #footer-small > .row > div {
   font-size: 11px;
   line-height: 20px;
   text-align: center;
   color: #8d8c8c;
 }
-/* line 116, ../sass/yahootheme.scss */
+/* line 120, ../sass/yahootheme.scss */
 #footer-small > .row > div > a {
   color: #646464;
 }
 
-/* line 120, ../sass/yahootheme.scss */
+/* line 124, ../sass/yahootheme.scss */
 .social-link {
   width: 50px;
   height: 50px;
@@ -11495,26 +11496,98 @@ footer > div {
   font-size: 20px;
   background-color: #d6d6d6;
 }
-/* line 130, ../sass/yahootheme.scss */
+/* line 134, ../sass/yahootheme.scss */
 .social-link a {
   color: #5a5a5a;
 }
-/* line 132, ../sass/yahootheme.scss */
+/* line 136, ../sass/yahootheme.scss */
 .social-link a:hover {
   color: #6e81ca;
 }
 
-/* line 139, ../sass/yahootheme.scss */
+/* line 143, ../sass/yahootheme.scss */
+#main {
+  margin-top: 30px;
+  color: #6b6b6b;
+}
+
+/* line 147, ../sass/yahootheme.scss */
+.section-title {
+  border-bottom: 1px solid #d5d5d5;
+}
+/* line 149, ../sass/yahootheme.scss */
+.section-title > h5 {
+  display: inline;
+  border-bottom: 5px solid orange;
+  padding: 0px 100px 0px 15px;
+  line-height: 26px;
+  font-family: 'Oswald', sans-serif;
+}
+
+/* line 157, ../sass/yahootheme.scss */
+.row.news-item {
+  margin-top: 20px;
+  font-size: 14px;
+}
+/* line 160, ../sass/yahootheme.scss */
+.row.news-item .picture {
+  border: 1px dotted #c8c8c8;
+  width: 180px;
+  height: 135px;
+  text-align: center;
+  line-height: 130px;
+  color: gainsboro;
+}
+/* line 168, ../sass/yahootheme.scss */
+.row.news-item .title {
+  font-size: 22px;
+  font-weight: bolder;
+  line-height: 30px;
+}
+/* line 173, ../sass/yahootheme.scss */
+.row.news-item .description {
+  font-size: 12px;
+  line-height: 14px;
+}
+
+/* line 178, ../sass/yahootheme.scss */
+.date {
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+  border: 1px solid #c8c8c8;
+  background-color: #f0f0f0;
+  padding: 10px 0px;
+  display: inline;
+  width: 63px;
+  float: right;
+}
+/* line 187, ../sass/yahootheme.scss */
+.date > div:first-child {
+  font-size: 20px;
+  margin: 0px 0px 10px 0px;
+}
+/* line 191, ../sass/yahootheme.scss */
+.date > div:last-child {
+  font-size: 10px;
+}
+
+/* line 198, ../sass/yahootheme.scss */
+h1, h2, h3, h4, h5 {
+  font-weight: normal;
+  color: #3652a8;
+}
+
+/* line 202, ../sass/yahootheme.scss */
 ul {
   font-size: 13px;
   list-style: none;
   line-height: 25px;
 }
-/* line 143, ../sass/yahootheme.scss */
+/* line 206, ../sass/yahootheme.scss */
 ul a {
   color: #646464;
 }
-/* line 146, ../sass/yahootheme.scss */
+/* line 209, ../sass/yahootheme.scss */
 ul a:hover {
   color: #3652a8;
 }
