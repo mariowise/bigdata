@@ -74,6 +74,29 @@
 
 		<div class="large-4 columns">
 			
+			<a class="twitter-timeline" href="https://twitter.com/usach" data-widget-id="380776829214134272">Tweets por @usach</a>
+			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+		</div>
+
+	</div>
+
+	<div id="publicaciones">
+
+		<div class="row">
+
+			<div class="section-title">
+				<h5>PUBLICACIONES</h5>
+			</div>
+
+		</div>
+
+		<div class="row">
+
+			<div class="large-6 columns">Título</div>
+			<div class="large-4 columns">Autores</div>			
+			<div class="large-2 columns">Fecha</div>			
+
 		</div>
 
 	</div>

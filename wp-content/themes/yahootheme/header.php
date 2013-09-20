@@ -9,20 +9,8 @@
 	<head>
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-		
-		<title><?php wp_title('', true, 'right'); ?></title>
-				
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		
-		<!-- media-queries.js (fallback) -->
-		<!--[if lt IE 9]>
-			<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>			
-		<![endif]-->
-
-		<!-- html5.js -->
-		<!--[if lt IE 9]>
-			<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-		<![endif]-->
+		<title><?php wp_title('', true, 'right'); ?></title>
 		
 		<!-- CSS -->
 		<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
@@ -30,6 +18,8 @@
 
 		<!-- JS -->
 		<script type="text/javascript" src="<?php bloginfo('template_directory');?>/javascripts/vendor/custom.modernizr.js"></script>
+		<script type="text/javascript" src="<?php bloginfo('template_directory');?>/javascripts/vendor/jquery.js"></script>
+		<script type="text/javascript" src="<?php bloginfo('template_directory');?>/javascripts/vendor/paper-full.min.js"></script>
 
 	</head>
 
@@ -41,21 +31,23 @@
 			<div id="header">
 
 				<div class="background">
-					<canvas id="header-background-canvas"></canvas>
-					<script type="text/javascript" src="<?php bloginfo('template_directory');?>/javascripts/mariowise/box-animation.js"></script>
+					<canvas id="myCanvas" resize="true"></canvas>
+					<script type="text/paperscript" src="<?php bloginfo('template_directory');?>/javascripts/mariowise/fluid-animate.js" canvas="myCanvas"></script>
 				</div>
 
-				<div class="row">
-					<div class="large-3 large-offset-9 columns">
-						Links especiales
+				<div id="header-menu">
+					<div class="row">
+						<div class="large-3 large-offset-9 columns">
+							<!-- Links especiales -->
+						</div>
 					</div>
-				</div>
-				<div id="logo-menu" class="row">
-					<div class="small-3 columns">
-						LOGO
-					</div>
-					<div class="small-9 columns">
-						MENU
+					<div id="logo-menu" class="row">
+						<div class="small-3 columns">
+							<!-- LOGO -->
+						</div>
+						<div class="small-9 columns">
+							<!-- MENU -->
+						</div>
 					</div>
 				</div>
 
