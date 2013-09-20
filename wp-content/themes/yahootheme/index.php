@@ -42,7 +42,7 @@
 				<h5>NOTICIAS</h5>
 			</div>
 			<div>
-
+				
 				<?php
 					$i = 0;
 					for($i = 0; $i < 3; $i++):
@@ -73,7 +73,7 @@
 		</div>
 
 		<div class="large-4 columns">
-			
+				
 		</div>
 
 	</div>
