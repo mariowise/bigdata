@@ -37,7 +37,7 @@ $font_main_grey: rgb(107, 107, 107);
 $section-title-gray: rgb(213, 213, 213);
 
 $header_blue: rgb(17, 71, 131);
-$footer_grey: rgb(250,250,250);
+$footer_grey: rgb(245,245,245);
 
 // TECNICA DE FOOTER ABAJO /////////////////////////////////////////////////////////
 $footer_height : 230px;
@@ -81,6 +81,9 @@ footer {
 		margin-top: 15px;
 		margin-bottom: 15px;	
 	}
+}
+#header-menu {
+	min-height: 62px;
 }
 
 // carrousel ///////////////////////////////////////////////////////////////////////
@@ -190,6 +193,14 @@ footer > div {
 	}
 	& > div:last-child {
 		font-size: 10px;
+	}
+}
+#publicaciones {
+	margin: 20px 0px;
+	padding: 20px 0px;
+	min-height: 100px;
+	& .section-title {
+		margin-bottom: 30px;
 	}
 }
 

@@ -11436,6 +11436,11 @@ footer {
   margin-bottom: 15px;
 }
 
+/* line 85, ../sass/yahootheme.scss */
+#header-menu {
+  min-height: 62px;
+}
+
 /*.orbit-container .orbit-slides-container>* .orbit-caption {
 	position: absolute;
 	left: 4%;
@@ -11447,44 +11452,44 @@ footer {
 	padding: 25px 25px;
 	font-size: 0.875em;
 }*/
-/* line 98, ../sass/yahootheme.scss */
+/* line 101, ../sass/yahootheme.scss */
 .slideshow-wrapper {
   box-shadow: 0px 6px 5px #5f5757;
 }
 
-/* line 103, ../sass/yahootheme.scss */
+/* line 106, ../sass/yahootheme.scss */
 footer {
   color: #3652a8;
 }
 
-/* line 106, ../sass/yahootheme.scss */
+/* line 109, ../sass/yahootheme.scss */
 footer > div {
-  background-color: #fafafa;
+  background-color: whitesmoke;
 }
 
-/* line 109, ../sass/yahootheme.scss */
+/* line 112, ../sass/yahootheme.scss */
 #footer-big > .row > div > div:first-child {
   margin-top: 20px;
 }
 
-/* line 112, ../sass/yahootheme.scss */
+/* line 115, ../sass/yahootheme.scss */
 #footer-big ul {
   margin-top: 10px;
 }
 
-/* line 115, ../sass/yahootheme.scss */
+/* line 118, ../sass/yahootheme.scss */
 #footer-small > .row > div {
   font-size: 11px;
   line-height: 20px;
   text-align: center;
   color: #8d8c8c;
 }
-/* line 120, ../sass/yahootheme.scss */
+/* line 123, ../sass/yahootheme.scss */
 #footer-small > .row > div > a {
   color: #646464;
 }
 
-/* line 124, ../sass/yahootheme.scss */
+/* line 127, ../sass/yahootheme.scss */
 .social-link {
   width: 50px;
   height: 50px;
@@ -11496,26 +11501,26 @@ footer > div {
   font-size: 20px;
   background-color: #d6d6d6;
 }
-/* line 134, ../sass/yahootheme.scss */
+/* line 137, ../sass/yahootheme.scss */
 .social-link a {
   color: #5a5a5a;
 }
-/* line 136, ../sass/yahootheme.scss */
+/* line 139, ../sass/yahootheme.scss */
 .social-link a:hover {
   color: #6e81ca;
 }
 
-/* line 143, ../sass/yahootheme.scss */
+/* line 146, ../sass/yahootheme.scss */
 #main {
   margin-top: 30px;
   color: #6b6b6b;
 }
 
-/* line 147, ../sass/yahootheme.scss */
+/* line 150, ../sass/yahootheme.scss */
 .section-title {
   border-bottom: 1px solid #d5d5d5;
 }
-/* line 149, ../sass/yahootheme.scss */
+/* line 152, ../sass/yahootheme.scss */
 .section-title > h5 {
   display: inline;
   border-bottom: 5px solid orange;
@@ -11524,12 +11529,12 @@ footer > div {
   font-family: 'Oswald', sans-serif;
 }
 
-/* line 157, ../sass/yahootheme.scss */
+/* line 160, ../sass/yahootheme.scss */
 .row.news-item {
   margin-top: 20px;
   font-size: 14px;
 }
-/* line 160, ../sass/yahootheme.scss */
+/* line 163, ../sass/yahootheme.scss */
 .row.news-item .picture {
   border: 1px dotted #c8c8c8;
   width: 180px;
@@ -11538,19 +11543,19 @@ footer > div {
   line-height: 130px;
   color: gainsboro;
 }
-/* line 168, ../sass/yahootheme.scss */
+/* line 171, ../sass/yahootheme.scss */
 .row.news-item .title {
   font-size: 22px;
   font-weight: bolder;
   line-height: 30px;
 }
-/* line 173, ../sass/yahootheme.scss */
+/* line 176, ../sass/yahootheme.scss */
 .row.news-item .description {
   font-size: 12px;
   line-height: 14px;
 }
 
-/* line 178, ../sass/yahootheme.scss */
+/* line 181, ../sass/yahootheme.scss */
 .date {
   font-family: 'Oswald', sans-serif;
   text-align: center;
@@ -11561,33 +11566,44 @@ footer > div {
   width: 63px;
   float: right;
 }
-/* line 187, ../sass/yahootheme.scss */
+/* line 190, ../sass/yahootheme.scss */
 .date > div:first-child {
   font-size: 20px;
   margin: 0px 0px 10px 0px;
 }
-/* line 191, ../sass/yahootheme.scss */
+/* line 194, ../sass/yahootheme.scss */
 .date > div:last-child {
   font-size: 10px;
 }
 
 /* line 198, ../sass/yahootheme.scss */
+#publicaciones {
+  margin: 20px 0px;
+  padding: 20px 0px;
+  min-height: 100px;
+}
+/* line 202, ../sass/yahootheme.scss */
+#publicaciones .section-title {
+  margin-bottom: 30px;
+}
+
+/* line 209, ../sass/yahootheme.scss */
 h1, h2, h3, h4, h5 {
   font-weight: normal;
   color: #3652a8;
 }
 
-/* line 202, ../sass/yahootheme.scss */
+/* line 213, ../sass/yahootheme.scss */
 ul {
   font-size: 13px;
   list-style: none;
   line-height: 25px;
 }
-/* line 206, ../sass/yahootheme.scss */
+/* line 217, ../sass/yahootheme.scss */
 ul a {
   color: #646464;
 }
-/* line 209, ../sass/yahootheme.scss */
+/* line 220, ../sass/yahootheme.scss */
 ul a:hover {
   color: #3652a8;
 }
