@@ -1,8 +1,6 @@
-// Code ported to Paper.js from http://the389.com/9/1/
-// with permission.
 
 var values = {
-	friction: 0.8,
+	friction: 0.2,
 	timeStep: 0.01,
 	amount: 15,
 	mass: 2,
