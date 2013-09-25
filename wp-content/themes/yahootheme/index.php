@@ -43,30 +43,29 @@
 			</div>
 			<div>
 
-				<?php
-					$i = 0;
-					for($i = 0; $i < 3; $i++):
-				?>
+				<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
 				<div class="row news-item">
 					<div class="small-4 columns">
 						<div class="picture">
-							Sin imagen
+							<?php the_post_thumbnail('wpf-featured'); ?>
 						</div>
 					</div>
 					<div class="small-6 columns body">
-						<div class="title">Título</div>
-						<div class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</div>
+						<div class="title"><a href="<?php the_permalink();?>"><?php the_title();?></a></div>
+						<div class="description"><?php the_content();?></div>
 					</div>
 					<div class="small-2 columns">
 						<div class="date">
-							<div>27</div>
-							<div>sep-2013</div>
+							<div><?php the_time('j');?></div>
+							<div><?php the_time('m');?>-<?php the_time('Y');?></div>
 						</div>
 					</div>
 				</div>
 
-				<?php endfor;?>
+				<?php endwhile;?>
+				
+				<?php endif;?>
 				
 			</div>
 
