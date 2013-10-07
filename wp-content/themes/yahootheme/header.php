@@ -36,17 +36,17 @@
 				</div>
 
 				<div id="header-menu">
-					<div class="row">
-						<div class="large-3 large-offset-9 columns">
-							<!-- Links especiales -->
-						</div>
-					</div>
 					<div id="logo-menu" class="row">
 						<div class="small-3 columns">
 							<!-- LOGO -->
 						</div>
 						<div class="small-9 columns">
-							<!-- MENU -->
+							<ul id="header-menu-links">
+								<li class="active"><a href="#">INICIO</a></li>
+								<li><a href="#">QUIENES SOMOS</a></li>
+								<li><a href="#">PUBLICACIONES</a></li>
+								<li><a href="#">PROYECTOS</a></li>
+							</ul>		
 						</div>
 					</div>
 				</div>

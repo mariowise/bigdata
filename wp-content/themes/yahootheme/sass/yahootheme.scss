@@ -30,15 +30,19 @@ Author URI: http://mariowise.wordpress.com
 @import url(http://fonts.googleapis.com/css?family=Noto+Sans:400,700,400italic,700italic);
 @import url(http://fonts.googleapis.com/css?family=Oswald:400,700,300);
 
+// MIS VARIABLES ///////////////////////////////////////////////////////////////////
 $font_grey: rgb(100,100,100);
 $font_blue: rgb(54,82,168);
 $font_main_grey: rgb(107, 107, 107);
+$font_special: 'Oswald', sans-serif;
+$font_normal: 'Noto Sans', sans-serif;
 
 $section-title-gray: rgb(213, 213, 213);
 
 $header_blue: rgb(17, 71, 131);
 $header_barcolor: rgb(255, 112, 0);
 $footer_grey: rgb(235, 235, 235);
+
 
 // TECNICA DE FOOTER ABAJO /////////////////////////////////////////////////////////
 $footer_height : 230px;
@@ -47,7 +51,7 @@ html, body {
 	height: 100%;
 }
 body {
-	font-family: 'Noto Sans', sans-serif;
+	font-family: $font_normal;
 	margin: 0px;
 }
 #wrapper {
@@ -85,6 +89,25 @@ footer {
 }
 #header-menu {
 	min-height: 62px;
+}
+#header-menu-links {
+	margin-bottom: 0px;
+	float: right;
+	font-size: 14px;
+	& li {
+		display: inline-block;
+		line-height: 60px;
+		height: 60px;
+		padding: 0px 10px;
+		& a {
+			color: white;
+			font-family: $font_special;
+		}
+		&:hover, &.active {
+			background-color: rgb(200,100,60);
+			color: $header_barcolor;
+		}
+	}
 }
 
 // carrousel ///////////////////////////////////////////////////////////////////////
@@ -165,7 +188,7 @@ footer > div {
 		border-bottom: 5px solid $header_barcolor;
 		padding: 0px 100px 0px 15px;
 		line-height: 26px;
-		font-family: 'Oswald', sans-serif;
+		font-family: $font_special;
 	}
 }
 .row.news-item {
@@ -190,7 +213,7 @@ footer > div {
 	}
 }
 .date {
-	font-family: 'Oswald', sans-serif;
+	font-family: $font_special;
 	text-align: center;
 	border: 1px solid rgb(200,200,200);
 	background-color: rgb(240,240,240);
