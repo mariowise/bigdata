@@ -37,7 +37,8 @@ $font_main_grey: rgb(107, 107, 107);
 $section-title-gray: rgb(213, 213, 213);
 
 $header_blue: rgb(17, 71, 131);
-$footer_grey: rgb(245,245,245);
+$header_barcolor: rgb(255, 112, 0);
+$footer_grey: rgb(235, 235, 235);
 
 // TECNICA DE FOOTER ABAJO /////////////////////////////////////////////////////////
 $footer_height : 230px;
@@ -71,7 +72,7 @@ footer {
 		background-color: $header_blue;
 		width: 100%;
 		height: 314px;
-		border-bottom: 5px solid orange;
+		border-bottom: 5px solid $header_barcolor;
 		& > canvas {
 			height: 100%;
 			width: 100%;
@@ -143,6 +144,16 @@ footer > div {
 }
 
 // main ////////////////////////////////////////////////////////////////////////////
+#content {
+	background: #e5e5e5; /* Old browsers */
+	background: -moz-linear-gradient(top,  #e5e5e5 0%, #ffffff 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#e5e5e5), color-stop(100%,#ffffff)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #e5e5e5 0%,#ffffff 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #e5e5e5 0%,#ffffff 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #e5e5e5 0%,#ffffff 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #e5e5e5 0%,#ffffff 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5e5e5', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+}
 #main {
 	margin-top: 30px;
 	color: $font_main_grey;
@@ -151,7 +162,7 @@ footer > div {
 	border-bottom: 1px solid $section-title-gray;
 	& > h5 {
 		display: inline;
-		border-bottom: 5px solid orange;
+		border-bottom: 5px solid $header_barcolor;
 		padding: 0px 100px 0px 15px;
 		line-height: 26px;
 		font-family: 'Oswald', sans-serif;
@@ -202,6 +213,11 @@ footer > div {
 	& .section-title {
 		margin-bottom: 30px;
 	}
+}
+div.just-text {
+	margin-top: 15px;
+	font-size: 12px;
+	line-height: 14px;
 }
 
 

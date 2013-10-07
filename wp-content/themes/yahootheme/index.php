@@ -31,73 +31,89 @@
 			</div>
 
 		</div>
+		
+		<!-- MAIN -->
+		<div id="main" class="row">
 
-	</div>
-
-	<!-- MAIN -->
-	<div id="main" class="row">
-
-		<div class="large-8 columns">
-			<div class="section-title">
-				<h5>NOTICIAS</h5>
-			</div>
-			<div>
-
-				<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-
-				<div class="row news-item">
-					<div class="small-4 columns">
-						<div class="picture">
-							<?php the_post_thumbnail('wpf-featured'); ?>
-						</div>
-					</div>
-					<div class="small-6 columns body">
-						<div class="title"><a href="<?php the_permalink();?>"><?php the_title();?></a></div>
-						<div class="description"><?php the_content();?></div>
-					</div>
-					<div class="small-2 columns">
-						<div class="date">
-							<div><?php the_time('j');?></div>
-							<div><?php the_time('m');?>-<?php the_time('Y');?></div>
-						</div>
-					</div>
+			<div class="large-8 columns">
+				<div class="section-title">
+					<h5>GRUPO DE INVESTIGACIÓN DE SISTEMAS ESCALABLES Y APLICACIONES</h5>
+				</div>
+				<div class="just-text">
+					<p>
+					Realiza  docencia  e  investigación  aplicada  orientada  al  diseño,  construcción,  despliegue   y
+					operación  de productos  de  software  que requieran manejar grandes volúmenes de información,
+					con  especialización  en la solución de problemas ubicados en la intersección entre recuperación
+					de  información  para  la  Web,  bases  de  datos,  y  procesamiento  paralelo  y  distribuido  de  la
+					información.  Su  objetivo  principal  es  desarrollar  estrategias  que  le  permitan  a  productos  de
+					software  escalar  de  manera  eficiente  en  usuarios  y  gestión  de  la  información,  y  crear  nuevas
+					aplicaciones con énfasis en productos basados en la Web.
+					</p>
 				</div>
 
-				<?php endwhile;?>
+				<div class="section-title">
+					<h5>NOTICIAS</h5>
+				</div>
+				<div>
+
+					<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+
+					<div class="row news-item">
+						<div class="small-4 columns">
+							<div class="picture">
+								<?php the_post_thumbnail('wpf-featured'); ?>
+							</div>
+						</div>
+						<div class="small-6 columns body">
+							<div class="title"><a href="<?php the_permalink();?>"><?php the_title();?></a></div>
+							<div class="description"><?php the_content();?></div>
+						</div>
+						<div class="small-2 columns">
+							<div class="date">
+								<div><?php the_time('j');?></div>
+								<div><?php the_time('m');?>-<?php the_time('Y');?></div>
+							</div>
+						</div>
+					</div>
+
+					<?php endwhile;?>
+					
+					<?php endif;?>
+					
+				</div>
+
+			</div>
+
+			<div class="large-4 columns">
 				
-				<?php endif;?>
-				
+				<a class="twitter-timeline" href="https://twitter.com/usach" data-widget-id="380776829214134272">Tweets por @usach</a>
+				<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
 			</div>
 
 		</div>
 
-		<div class="large-4 columns">
-			
-			<a class="twitter-timeline" href="https://twitter.com/usach" data-widget-id="380776829214134272">Tweets por @usach</a>
-			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+		<div id="publicaciones">
+
+			<div class="row">
+
+				<div class="section-title">
+					<h5>PUBLICACIONES</h5>
+				</div>
+
+			</div>
+
+			<div class="row">
+
+				<div class="large-6 columns">Título</div>
+				<div class="large-4 columns">Autores</div>			
+				<div class="large-2 columns">Fecha</div>			
+
+			</div>
 
 		</div>
 
 	</div>
 
-	<div id="publicaciones">
-
-		<div class="row">
-
-			<div class="section-title">
-				<h5>PUBLICACIONES</h5>
-			</div>
-
-		</div>
-
-		<div class="row">
-
-			<div class="large-6 columns">Título</div>
-			<div class="large-4 columns">Autores</div>			
-			<div class="large-2 columns">Fecha</div>			
-
-		</div>
-
-	</div>
 
 <?php get_footer(); ?>
