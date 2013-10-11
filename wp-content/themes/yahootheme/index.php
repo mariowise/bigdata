@@ -66,7 +66,7 @@
 						</div>
 						<div class="small-6 columns body">
 							<div class="title"><a href="<?php the_permalink();?>"><?php the_title();?></a></div>
-							<div class="description"><?php the_content();?></div>
+							<div class="description"><p><?php the_excerpt();?></p></div>
 						</div>
 						<div class="small-2 columns">
 							<div class="date">
@@ -86,13 +86,22 @@
 
 			<div class="large-4 columns">
 				
-				<a class="twitter-timeline" href="https://twitter.com/usach" data-widget-id="380776829214134272">Tweets por @usach</a>
-				<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+				<div id="twitter-container">
+					<a class="twitter-timeline" href="https://twitter.com/usach" data-widget-id="380776829214134272">Tweets por @usach</a>
+					<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+				</div>
+				<div id="sponsor-container">
+					<div><a href="http://www.orand.cl"><img src="<?php bloginfo('template_directory'); ?>/img/sp_orand.png"></a></div>
+					<div><a href="http://labs.yahoo.com"><img src="<?php bloginfo('template_directory'); ?>/img/sp_yahoo.png"></a></div>
+					<div><a href="http://www.mon.ki"><img src="<?php bloginfo('template_directory'); ?>/img/sp_monki.png"></a></div>
+					<div><a href="http://www.newtenberg.com"><img src="<?php bloginfo('template_directory'); ?>/img/sp_newtenberg.png"></a></div>
+				</div>
 
 			</div>
 
 		</div>
 
+		<!--
 		<div id="publicaciones">
 
 			<div class="row">
@@ -112,6 +121,7 @@
 			</div>
 
 		</div>
+		-->
 
 	</div>
 
