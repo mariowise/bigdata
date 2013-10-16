@@ -19,7 +19,6 @@
 		<!-- JS -->
 		<script type="text/javascript" src="<?php bloginfo('template_directory');?>/javascripts/vendor/custom.modernizr.js"></script>
 		<script type="text/javascript" src="<?php bloginfo('template_directory');?>/javascripts/vendor/jquery.js"></script>
-		<script type="text/javascript" src="<?php bloginfo('template_directory');?>/javascripts/vendor/paper-full.min.js"></script>
 
 	</head>
 
@@ -30,17 +29,14 @@
 
 			<div id="header">
 
-				<div class="background">
-					<canvas id="myCanvas" resize="true"></canvas>
-					<script type="text/paperscript" src="<?php bloginfo('template_directory');?>/javascripts/mariowise/fluid-animate.js" canvas="myCanvas"></script>
-				</div>
+				<div class="background"></div>
 
 				<div id="header-menu">
 					<div id="logo-menu" class="row">
-						<div class="small-3 columns">
-							<!-- LOGO -->
+						<div id="logo" class="small-4 columns">
+							<new>R</new>espond <new>S</new>ystems
 						</div>
-						<div class="small-9 columns">
+						<div class="small-8 columns">
 							<ul id="header-menu-links">
 								<li class="active"><a href="#">INICIO</a></li>
 								<li><a href="#">QUIENES SOMOS</a></li>

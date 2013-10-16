@@ -10,15 +10,12 @@
 					<ul data-orbit="" data-options="timer_speed:4500; bullets:false; animation: &#39;fade&#39;;resume_on_mouseout: true;slide_number: false" class="" style="height: 375px">
 						<li>
 							<img src="<?php bloginfo('template_directory'); ?>/img/carr02.jpg">
-							<div class="orbit-caption">...</div>
 						</li>
 						<li>
 							<img src="<?php bloginfo('template_directory'); ?>/img/carr03.jpg">
-							<div class="orbit-caption">...</div>
 						</li>
 						<li>
 							<img src="<?php bloginfo('template_directory'); ?>/img/carr04.jpg">
-							<div class="orbit-caption">...</div>
 						</li>
 					</ul>
 					<a href="#" class="orbit-prev">Prev <span></span></a>
@@ -87,7 +84,7 @@
 			<div class="large-4 columns">
 				
 				<div id="twitter-container">
-					<a class="twitter-timeline" href="https://twitter.com/usach" data-widget-id="380776829214134272">Tweets por @usach</a>
+					<a class="twitter-timeline" href="https://twitter.com/respond_group" data-widget-id="390454495164907520">Tweets por @respond_group</a>
 					<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 				</div>
 				<div id="sponsor-container">
