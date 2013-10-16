@@ -1,5 +1,11 @@
 <?php get_header(); ?>
 
+	<style type="text/css">
+		#header .background {
+			height: 314px;
+		}
+	</style>
+
 	<div id="content">
 
 		<div class="row">
