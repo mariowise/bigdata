@@ -38,6 +38,7 @@ $font_main_grey: rgb(107, 107, 107);
 $font_special: 'Oswald', sans-serif;
 $font_normal: 'Noto Sans', sans-serif;
 $font_logo: 'Lily Script One', cursive;
+$font_title_grey: rgb(139, 139, 139);
 
 $section-title-gray: rgb(213, 213, 213);
 
@@ -139,7 +140,7 @@ footer {
 
 // footer //////////////////////////////////////////////////////////////////////////
 footer {
-	color: $font_blue;
+	color: $header_barcolor;
 }
 footer > div {
 	background-color: $footer_grey;
@@ -222,14 +223,13 @@ footer > div {
 		font-size: 22px;
 		font-weight: bolder;
 		line-height: 23px;
-		& a:hover {
-			color: $font_blue;
-			text-decoration: underline;
-		}
 	}
 	& .description {
 		font-size: 12px;
 		line-height: 14px;
+	}
+	& .date {
+		float: right;
 	}
 }
 .date {
@@ -240,7 +240,6 @@ footer > div {
 	padding: 10px 0px;
 	display: inline;
 	width: 63px;
-	float: right;
 	& > div:first-child {
 		font-size: 20px;
 		margin: 0px 0px 10px 0px;
@@ -271,24 +270,47 @@ div.just-text {
 	font-size: 12px;
 	line-height: 14px;
 }
+.post {
+	& .title > h2 {
+		font-family: $font_special;
+		color: $header_barcolor;
+	}
+}
+#post-content {
+	font-size: 13px;
+	& div,p {
+		font-weight: normal;
+		font-size: 1em;
+		line-height: 1.6;
+		margin-bottom: 1.25em;
+		text-rendering: optimizeLegibility;
+	}
+}
+.post-link-move a {
+	color: $header_barcolor;
+}
 
 
 // normales ////////////////////////////////////////////////////////////////////////
 a {
-	color: $font_blue;
+	color: $font_title_grey;
+	&:hover {
+		color: $header_barcolor;
+		text-decoration: none;
+	}
 }
 h1, h2, h3, h4, h5 {
 	font-weight: normal;
-	color: $font_blue;
+	color: $font_title_grey;
 }
 ul {
 	font-size: 13px;
 	list-style: none;
 	line-height: 25px;
 	& a {
-		color: $font_grey;
+		color: $font_title_grey;
 	}
 	& a:hover {
-		color: $font_blue;
+		color: $header_barcolor;
 	}
 }
