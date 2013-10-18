@@ -38,10 +38,11 @@
 						</div>
 						<div class="small-8 columns">
 							<ul id="header-menu-links">
-								<li class="active"><a href="#">INICIO</a></li>
-								<li><a href="#">QUIENES SOMOS</a></li>
-								<li><a href="#">PUBLICACIONES</a></li>
-								<li><a href="#">PROYECTOS</a></li>
+								<li><a href="<?php echo home_url();?>">INICIO</a></li>
+								<li><a href="<?php echo home_url();?>/?page_id=18">QUIENES SOMOS</a></li>
+								<li><a href="<?php echo home_url();?>/?page_id=41">NOTICIAS</a></li>
+								<li><a href="<?php echo home_url();?>/?page_id=20">PUBLICACIONES</a></li>
+								<li><a href="<?php echo home_url();?>/?page_id=22">PROYECTOS</a></li>
 							</ul>		
 						</div>
 					</div>

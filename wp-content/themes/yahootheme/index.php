@@ -1,10 +1,14 @@
-<?php get_header(); ?>
+<?php get_header();?>
 
 	<style type="text/css">
 		#header .background {
 			height: 314px;
 		}
 	</style>
+
+	<script type="text/javascript">
+		$($('#header-menu-links').children()[0]).attr('class', 'active');
+	</script>
 
 	<div id="content">
 

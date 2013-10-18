@@ -23,7 +23,7 @@
 						<div>Comparte</div>
 						<div>
 							<div class="social-link"><a href="#"><i class="icon-facebook"></i></a></div>
-							<div class="social-link"><a href="#"><i class="icon-twitter"></i></a></div>
+							<div class="social-link"><a href="https://twitter.com/respond_group"><i class="icon-twitter"></i></a></div>
 							<div class="social-link"><a href="#"><i class="icon-google-plus"></i></a></div>
 						</div>
 						<div>Contacto</div>
