@@ -94,6 +94,13 @@ footer {
 			color: $header_barcolor;
 		}
 	}
+	& #logo img {
+		width: 218px;
+		height: auto;
+		position: absolute;
+		top: 7px;
+		z-index: 10;
+	}
 	& > #logo-menu {
 		margin-top: 15px;
 		margin-bottom: 15px;

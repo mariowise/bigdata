@@ -98,7 +98,7 @@
 					<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 				</div>
 				<div id="sponsor-container">
-					<div><a href="http://www.orand.cl"><img src="<?php bloginfo('template_directory'); ?>/img/sp_orand.png"></a></div>
+					<div style="margin-bottom: 25px"><a href="http://www.orand.cl"><img src="<?php bloginfo('template_directory'); ?>/img/sp_orand.png"></a></div>
 					<div><a href="http://labs.yahoo.com"><img src="<?php bloginfo('template_directory'); ?>/img/sp_yahoo.png"></a></div>
 					<div><a href="http://www.mon.ki"><img src="<?php bloginfo('template_directory'); ?>/img/sp_monki.png"></a></div>
 					<div><a href="http://www.newtenberg.com"><img src="<?php bloginfo('template_directory'); ?>/img/sp_newtenberg.png"></a></div>

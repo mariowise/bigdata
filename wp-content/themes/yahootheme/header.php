@@ -34,15 +34,15 @@
 				<div id="header-menu">
 					<div id="logo-menu" class="row">
 						<div id="logo" class="small-4 columns">
-							<new>R</new>espond <new>S</new>ystems
+							<a href="<?php echo home_url();?>"><img id="respond-logo" src="<?php bloginfo('template_directory');?>/img/respond_logo.png"></a>
 						</div>
 						<div class="small-8 columns">
 							<ul id="header-menu-links">
-								<li><a href="<?php echo home_url();?>">INICIO</a></li>
-								<li><a href="<?php echo home_url();?>/?page_id=18">QUIENES SOMOS</a></li>
-								<li><a href="<?php echo home_url();?>/?page_id=41">NOTICIAS</a></li>
-								<li><a href="<?php echo home_url();?>/?page_id=20">PUBLICACIONES</a></li>
-								<li><a href="<?php echo home_url();?>/?page_id=22">PROYECTOS</a></li>
+								<li name="inicio"><a href="<?php echo home_url();?>">INICIO</a></li>
+								<li name="quienessomos"><a href="<?php echo home_url();?>/quienes-somos/">QUIENES SOMOS</a></li>
+								<li name="noticias"><a href="<?php echo home_url();?>/noticias/">NOTICIAS</a></li>
+								<li name="publicaciones"><a href="<?php echo home_url();?>/publicaciones/">PUBLICACIONES</a></li>
+								<li name="proyectos"><a href="<?php echo home_url();?>/proyectos-2/">PROYECTOS</a></li>
 							</ul>		
 						</div>
 					</div>

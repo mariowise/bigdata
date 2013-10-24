@@ -1,18 +1,16 @@
 <?php get_header(); ?>
 
-	<script type="text/javascript">
-		$($('#header-menu-links').children()[<?php 
-			$page_id = $_REQUEST['page_id'];
-			$menu_links = array(0, 18, 41, 20, 22);
-			for($i = 0; $i < count($menu_links); $i++)
-				if($menu_links[$i] == $page_id)
-					echo $i;
-		?>]).attr('class', 'active');
-	</script>
-
 	<div id="content">
 
 		<?php the_post();?>
+
+		<script type="text/javascript">
+			$('#header-menu-links li[name="<?php 
+					$title = str_replace(" ", "", get_the_title());
+					$title = strtolower($title);
+					echo $title;
+				?>"]').attr('class', 'active');
+		</script>
 
 		<div class="row">
 
