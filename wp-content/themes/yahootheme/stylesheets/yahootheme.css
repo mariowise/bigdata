@@ -11595,29 +11595,42 @@ footer > div {
   background-color: #ebebeb;
 }
 
-/* line 158, ../sass/yahootheme.scss */
+/* line 159, ../sass/yahootheme.scss */
+#footer-big #equipo div:nth-child(1) {
+  margin-bottom: 5px;
+}
+/* line 162, ../sass/yahootheme.scss */
+#footer-big #equipo img {
+  float: left;
+  width: 34px;
+  height: auto;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+/* line 170, ../sass/yahootheme.scss */
 #footer-big > .row > div > div:first-child {
   margin-top: 20px;
 }
 
-/* line 161, ../sass/yahootheme.scss */
+/* line 173, ../sass/yahootheme.scss */
 #footer-big ul {
   margin-top: 10px;
 }
 
-/* line 164, ../sass/yahootheme.scss */
+/* line 176, ../sass/yahootheme.scss */
 #footer-small > .row > div {
   font-size: 11px;
   line-height: 20px;
   text-align: center;
   color: #8d8c8c;
 }
-/* line 169, ../sass/yahootheme.scss */
+/* line 181, ../sass/yahootheme.scss */
 #footer-small > .row > div > a {
   color: #646464;
 }
 
-/* line 173, ../sass/yahootheme.scss */
+/* line 185, ../sass/yahootheme.scss */
 .social-link {
   width: 50px;
   height: 50px;
@@ -11629,16 +11642,16 @@ footer > div {
   font-size: 20px;
   background-color: #d6d6d6;
 }
-/* line 183, ../sass/yahootheme.scss */
+/* line 195, ../sass/yahootheme.scss */
 .social-link a {
   color: #5a5a5a;
 }
-/* line 185, ../sass/yahootheme.scss */
+/* line 197, ../sass/yahootheme.scss */
 .social-link a:hover {
   color: #6e81ca;
 }
 
-/* line 192, ../sass/yahootheme.scss */
+/* line 204, ../sass/yahootheme.scss */
 #content {
   background: #e5e5e5;
   /* Old browsers */
@@ -11658,17 +11671,17 @@ footer > div {
   /* IE6-9 */
 }
 
-/* line 202, ../sass/yahootheme.scss */
+/* line 214, ../sass/yahootheme.scss */
 #main {
   margin-top: 30px;
   color: #6b6b6b;
 }
 
-/* line 206, ../sass/yahootheme.scss */
+/* line 218, ../sass/yahootheme.scss */
 .section-title {
   border-bottom: 1px solid #d5d5d5;
 }
-/* line 208, ../sass/yahootheme.scss */
+/* line 220, ../sass/yahootheme.scss */
 .section-title > h5 {
   display: inline;
   border-bottom: 5px solid #168b06;
@@ -11677,12 +11690,12 @@ footer > div {
   font-family: "Oswald", sans-serif;
 }
 
-/* line 216, ../sass/yahootheme.scss */
+/* line 228, ../sass/yahootheme.scss */
 .row.news-item {
   margin-top: 20px;
   font-size: 14px;
 }
-/* line 219, ../sass/yahootheme.scss */
+/* line 231, ../sass/yahootheme.scss */
 .row.news-item .picture {
   /*border: 1px dotted rgb(200,200,200);*/
   width: 180px;
@@ -11692,28 +11705,28 @@ footer > div {
   color: gainsboro;
   overflow-x: hidden;
 }
-/* line 227, ../sass/yahootheme.scss */
+/* line 239, ../sass/yahootheme.scss */
 .row.news-item .picture img {
   height: 100%;
   width: auto;
 }
-/* line 232, ../sass/yahootheme.scss */
+/* line 244, ../sass/yahootheme.scss */
 .row.news-item .title {
   font-size: 22px;
   font-weight: bolder;
   line-height: 23px;
 }
-/* line 237, ../sass/yahootheme.scss */
+/* line 249, ../sass/yahootheme.scss */
 .row.news-item .description {
   font-size: 12px;
   line-height: 14px;
 }
-/* line 241, ../sass/yahootheme.scss */
+/* line 253, ../sass/yahootheme.scss */
 .row.news-item .date {
   float: right;
 }
 
-/* line 245, ../sass/yahootheme.scss */
+/* line 257, ../sass/yahootheme.scss */
 .date {
   font-family: "Oswald", sans-serif;
   text-align: center;
@@ -11723,62 +11736,62 @@ footer > div {
   display: inline;
   width: 63px;
 }
-/* line 253, ../sass/yahootheme.scss */
+/* line 265, ../sass/yahootheme.scss */
 .date > div:first-child {
   font-size: 20px;
   margin: 0px 0px 10px 0px;
 }
-/* line 257, ../sass/yahootheme.scss */
+/* line 269, ../sass/yahootheme.scss */
 .date > div:last-child {
   font-size: 10px;
 }
 
-/* line 261, ../sass/yahootheme.scss */
+/* line 273, ../sass/yahootheme.scss */
 #publicaciones {
   margin: 20px 0px;
   padding: 20px 0px;
   min-height: 100px;
 }
-/* line 265, ../sass/yahootheme.scss */
+/* line 277, ../sass/yahootheme.scss */
 #publicaciones .section-title {
   margin-bottom: 30px;
 }
 
-/* line 269, ../sass/yahootheme.scss */
+/* line 281, ../sass/yahootheme.scss */
 #sponsor-container {
   text-align: center;
 }
-/* line 271, ../sass/yahootheme.scss */
+/* line 283, ../sass/yahootheme.scss */
 #sponsor-container div {
   margin-top: 10px;
 }
-/* line 273, ../sass/yahootheme.scss */
+/* line 285, ../sass/yahootheme.scss */
 #sponsor-container div img {
   width: 130px;
 }
 
-/* line 278, ../sass/yahootheme.scss */
+/* line 290, ../sass/yahootheme.scss */
 div.just-text {
   margin-top: 15px;
   font-size: 12px;
   line-height: 14px;
 }
 
-/* line 283, ../sass/yahootheme.scss */
+/* line 295, ../sass/yahootheme.scss */
 .post {
   margin-top: 30px;
 }
-/* line 285, ../sass/yahootheme.scss */
+/* line 297, ../sass/yahootheme.scss */
 .post .title > h2 {
   font-family: "Oswald", sans-serif;
   color: #168b06;
 }
 
-/* line 290, ../sass/yahootheme.scss */
+/* line 302, ../sass/yahootheme.scss */
 #post-content, .page-content {
   font-size: 13px;
 }
-/* line 292, ../sass/yahootheme.scss */
+/* line 304, ../sass/yahootheme.scss */
 #post-content div, .page-content div, #post-content p, .page-content p {
   font-weight: normal;
   font-size: 1em;
@@ -11787,12 +11800,12 @@ div.just-text {
   text-rendering: optimizeLegibility;
 }
 
-/* line 300, ../sass/yahootheme.scss */
+/* line 312, ../sass/yahootheme.scss */
 .post-link-move a {
   color: #168b06;
 }
 
-/* line 305, ../sass/yahootheme.scss */
+/* line 317, ../sass/yahootheme.scss */
 .page-header {
   text-align: center;
   font-family: "Oswald", sans-serif;
@@ -11803,38 +11816,38 @@ div.just-text {
   border-bottom: 1px solid #d2d2d2;
 }
 
-/* line 314, ../sass/yahootheme.scss */
+/* line 326, ../sass/yahootheme.scss */
 .page-content {
   margin-top: 30px;
 }
 
-/* line 320, ../sass/yahootheme.scss */
+/* line 332, ../sass/yahootheme.scss */
 a {
   color: #8b8b8b;
 }
-/* line 322, ../sass/yahootheme.scss */
+/* line 334, ../sass/yahootheme.scss */
 a:hover {
   color: #168b06;
   text-decoration: none;
 }
 
-/* line 327, ../sass/yahootheme.scss */
+/* line 339, ../sass/yahootheme.scss */
 h1, h2, h3, h4, h5 {
   font-weight: normal;
   color: #8b8b8b;
 }
 
-/* line 331, ../sass/yahootheme.scss */
+/* line 343, ../sass/yahootheme.scss */
 ul {
   font-size: 13px;
   list-style: none;
   line-height: 25px;
 }
-/* line 335, ../sass/yahootheme.scss */
+/* line 347, ../sass/yahootheme.scss */
 ul a {
   color: #8b8b8b;
 }
-/* line 338, ../sass/yahootheme.scss */
+/* line 350, ../sass/yahootheme.scss */
 ul a:hover {
   color: #168b06;
 }

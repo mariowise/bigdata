@@ -28,8 +28,14 @@
 						</div>
 						<div>Contacto</div>
 					</div>
-					<div class="large-2 columns">
-						<div>Miembros</div>
+					<div id="equipo" class="large-2 columns">
+						<div>Equipo</div>
+						<div>
+							<img src="<?php bloginfo('template_directory');?>/img/prof/04.png">
+							<img src="<?php bloginfo('template_directory');?>/img/prof/01.png">
+							<img src="<?php bloginfo('template_directory');?>/img/prof/02.png">
+							<img src="<?php bloginfo('template_directory');?>/img/prof/03.png">
+						</div>
 					</div>
 
 				</div>
