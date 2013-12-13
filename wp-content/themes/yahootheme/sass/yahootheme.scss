@@ -50,6 +50,10 @@ $footer_grey: rgb(235, 235, 235);
 // TECNICA DE FOOTER ABAJO /////////////////////////////////////////////////////////
 $footer_height : 230px;
 
+html {
+	// No responsive
+	min-width: 1050px;
+}
 html, body {
 	height: 100%;
 }
@@ -107,7 +111,7 @@ footer {
 	}
 }
 #header-menu {
-	min-height: 62px;
+	min-height: 60px;
 }
 #header-menu-links {
 	margin-bottom: 0px;
@@ -118,6 +122,8 @@ footer {
 		line-height: 60px;
 		height: 60px;
 		padding: 0px 10px;
+		margin: 0px -2px;
+
 		& a {
 			color: white;
 			font-family: $font_special;
@@ -146,6 +152,8 @@ footer {
 }
 .slideshow-wrapper {
 	box-shadow: 0px 6px 5px rgb(95, 87, 87);
+	height: 293px;
+	overflow-y: hidden;
 }
 
 // footer //////////////////////////////////////////////////////////////////////////
@@ -156,15 +164,20 @@ footer > div {
 	background-color: $footer_grey;
 }
 #footer-big {
-	& #equipo div:nth-child(1) {
+	& #colaboradores div:nth-child(1) {
 		margin-bottom: 5px;
 	}
-	& #equipo img {
+	& #colaboradores img {
 		float: left;
-		width: 34px;
+		width: 100px;
 		height: auto;
-		margin-right: 5px;
+		margin-left: 15px;
 		margin-bottom: 5px;
+	}
+	& #logoUsach {
+		width: 109px;
+		margin-left: 30px;
+		margin-top: 18px;
 	}
 }
 #footer-big > .row > div > div:first-child {
@@ -178,6 +191,7 @@ footer > div {
 	line-height: 20px;
 	text-align: center;
 	color: rgb(141, 140, 140);
+	
 	& > a {
 		color: $font_grey;
 	}
@@ -192,6 +206,7 @@ footer > div {
 	margin: 10px 0px;
 	font-size: 20px;
 	background-color: rgb(214, 214, 214);
+	
 	& a {
 		color: rgb(90,90,90);
 		&:hover {
