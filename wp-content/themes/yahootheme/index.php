@@ -28,8 +28,6 @@
 							<img src="<?php bloginfo('template_directory'); ?>/img/carr04.jpg">
 						</li>
 					</ul>
-					<a href="#" class="orbit-prev">Prev <span></span></a>
-					<a href="#" class="orbit-next">Next <span></span></a>
 					<div class="orbit-timer">
 						<span></span>
 						<div class="orbit-progress" style="width: 100%; -webkit-transition: width 10s linear;"></div>
@@ -97,38 +95,16 @@
 					<a class="twitter-timeline" href="https://twitter.com/respond_group" data-widget-id="390454495164907520">Tweets por @respond_group</a>
 					<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
 				</div>
-				<div id="sponsor-container">
+				<!-- <div id="sponsor-container">
 					<div style="margin-bottom: 25px"><a href="http://www.orand.cl"><img src="<?php bloginfo('template_directory'); ?>/img/sp_orand.png"></a></div>
 					<div><a href="http://labs.yahoo.com"><img src="<?php bloginfo('template_directory'); ?>/img/sp_yahoo.png"></a></div>
 					<div><a href="http://www.mon.ki"><img src="<?php bloginfo('template_directory'); ?>/img/sp_monki.png"></a></div>
 					<div><a href="http://www.newtenberg.com"><img src="<?php bloginfo('template_directory'); ?>/img/sp_newtenberg.png"></a></div>
-				</div>
+				</div> -->
 
 			</div>
 
 		</div>
-
-		<!--
-		<div id="publicaciones">
-
-			<div class="row">
-
-				<div class="section-title">
-					<h5>PUBLICACIONES</h5>
-				</div>
-
-			</div>
-
-			<div class="row">
-
-				<div class="large-6 columns">Título</div>
-				<div class="large-4 columns">Autores</div>			
-				<div class="large-2 columns">Fecha</div>			
-
-			</div>
-
-		</div>
-		-->
 
 	</div>
 

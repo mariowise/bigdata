@@ -7,19 +7,18 @@
 				<div class="row">
 					
 					<div class="large-2 columns">
-						<img style="width: 100%" src="<?php bloginfo('template_directory');?>/img/logoUsach.png">
+						<img id="logoUsach" src="<?php bloginfo('template_directory');?>/img/logoUsach.png">
 					</div>
 					<div class="large-4 columns">
 						<div>Enlaces</div>
 						<div>
 							<ul>
 								<li><a href="http://www.udesantiago.cl/">Universidad de Santiago de Chile</a></li>
-								<li><a href="http://www.udesantiagovirtual.cl/">UsachVirtual</a></li>
 								<li><a href="http://informatica.usach.cl/">Departamento de ingeniería informática</a></li>
 							</ul>
 						</div>
 					</div>
-					<div class="large-4 columns">
+					<!-- <div class="large-4 columns">
 						<div>Comparte</div>
 						<div>
 							<div class="social-link"><a href="#"><i class="icon-facebook"></i></a></div>
@@ -27,14 +26,14 @@
 							<div class="social-link"><a href="#"><i class="icon-google-plus"></i></a></div>
 						</div>
 						<div>Contacto</div>
-					</div>
-					<div id="equipo" class="large-2 columns">
-						<div>Equipo</div>
+					</div> -->
+					<div id="colaboradores" class="large-6 columns">
+						<div>Colaboradores</div>
 						<div>
-							<img src="<?php bloginfo('template_directory');?>/img/prof/04.png">
-							<img src="<?php bloginfo('template_directory');?>/img/prof/01.png">
-							<img src="<?php bloginfo('template_directory');?>/img/prof/02.png">
-							<img src="<?php bloginfo('template_directory');?>/img/prof/03.png">
+							<div><a href="http://labs.yahoo.com"><img style="margin-top: 18px" src="<?php bloginfo('template_directory'); ?>/img/sp_yahoo.png"></a></div>
+							<div><a href="http://www.orand.cl"><img src="<?php bloginfo('template_directory'); ?>/img/sp_orand_t.png"></a></div>
+							<div><a href="http://www.mon.ki"><img style="margin-top: 5px" src="<?php bloginfo('template_directory'); ?>/img/sp_monki_t.png"></a></div>
+							<div><a href="http://www.newtenberg.com"><img style="margin-top:-8px" src="<?php bloginfo('template_directory'); ?>/img/sp_newtenberg_t.png"></a></div>
 						</div>
 					</div>
 
