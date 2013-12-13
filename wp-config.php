@@ -22,7 +22,7 @@ define('DB_NAME', 'wp_bigdata');
 define('DB_USER', 'root');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'mtadmin');
+define('DB_PASSWORD', 'madmin');
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');

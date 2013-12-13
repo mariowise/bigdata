@@ -13,7 +13,7 @@
 		<title><?php wp_title('', true, 'right'); ?></title>
 		
 		<!-- CSS -->
-		<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
+		<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo('stylesheet_url');?>" />
 		<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/stylesheets/yahootheme.css">
 
 		<!-- JS -->
