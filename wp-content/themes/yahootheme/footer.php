@@ -14,26 +14,17 @@
 						<div>
 							<ul>
 								<li><a href="http://www.udesantiago.cl/">Universidad de Santiago de Chile</a></li>
-								<li><a href="http://informatica.usach.cl/">Departamento de ingeniería informática</a></li>
+								<li><a href="http://www.informatica.usach.cl/">Departamento de ingeniería informática</a></li>
 							</ul>
 						</div>
 					</div>
-					<!-- <div class="large-4 columns">
-						<div>Comparte</div>
-						<div>
-							<div class="social-link"><a href="#"><i class="icon-facebook"></i></a></div>
-							<div class="social-link"><a href="https://twitter.com/respond_group"><i class="icon-twitter"></i></a></div>
-							<div class="social-link"><a href="#"><i class="icon-google-plus"></i></a></div>
-						</div>
-						<div>Contacto</div>
-					</div> -->
-					<div id="colaboradores" class="large-6 columns">
+					<div id="colaboradores" class="large-6 columns clearfix">
 						<div>Colaboradores</div>
-						<div>
-							<div><a href="http://labs.yahoo.com"><img style="margin-top: 18px" src="<?php bloginfo('template_directory'); ?>/img/sp_yahoo.png"></a></div>
-							<div><a href="http://www.orand.cl"><img src="<?php bloginfo('template_directory'); ?>/img/sp_orand_t.png"></a></div>
-							<div><a href="http://www.mon.ki"><img style="margin-top: 5px" src="<?php bloginfo('template_directory'); ?>/img/sp_monki_t.png"></a></div>
-							<div><a href="http://www.newtenberg.com"><img style="margin-top:-8px" src="<?php bloginfo('template_directory'); ?>/img/sp_newtenberg_t.png"></a></div>
+						<div class="list clearfix">
+							<div><a class="clearfix" href="http://labs.yahoo.com"><img src="<?php bloginfo('template_directory'); ?>/img/remake-01.png"></a></div>
+							<div><a class="clearfix" href="http://www.orand.cl"><img src="<?php bloginfo('template_directory'); ?>/img/remake-02.png"></a></div>
+							<div><a class="clearfix" href="http://www.mon.ki"><img style="margin-top: 5px" src="<?php bloginfo('template_directory'); ?>/img/remake-03.png"></a></div>
+							<div><a class="clearfix" href="http://www.newtenberg.com"><img src="<?php bloginfo('template_directory'); ?>/img/remake-04.png"></a></div>
 						</div>
 					</div>
 

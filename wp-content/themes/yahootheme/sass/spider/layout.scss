@@ -1,0 +1,34 @@
+
+html {
+	// No responsive
+	// min-width: 1050px;
+}
+html, body {
+	height: 100%;
+}
+body {
+	font-family: $font_normal;
+	margin: 0px;
+}
+#wrapper {
+	min-height: 100%;
+	position: relative;
+}
+#wrapper-ghost {
+	height: $footer_height;
+	width: 100%;
+}
+footer {
+	width: 100%;
+	position: absolute;
+	bottom: 0px;
+	/*height: $footer_height;*/
+
+	& #colaboradores {
+		& > .list {
+			& > div {
+				display: inline-block;
+			}
+		}
+	}
+}

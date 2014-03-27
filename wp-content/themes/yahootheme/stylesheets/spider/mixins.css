@@ -1,0 +1,15 @@
+/* line 2, ../../sass/spider/mixins.scss */
+.clearfix:before, .clearfix:after {
+  content: " ";
+  display: table;
+}
+
+/* line 6, ../../sass/spider/mixins.scss */
+.clearfix:after {
+  clear: both;
+}
+
+/* line 9, ../../sass/spider/mixins.scss */
+.clearfix {
+  *zoom: 1;
+}

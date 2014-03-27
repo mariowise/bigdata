@@ -1,0 +1,16 @@
+
+.clearfix:before, .clearfix:after {
+    content: " ";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+.clearfix {
+    *zoom: 1;
+}
+
+@mixin text-color {
+	color: $font_main_grey;
+	text-align: justify;
+}

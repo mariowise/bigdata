@@ -1,0 +1,75 @@
+/* Define mobile styles */
+@media only screen and (max-width: 40em) {
+  /* line 5, ../../sass/spider/media.scss */
+  .slideshow-wrapper {
+    display: none;
+  }
+
+  /* line 8, ../../sass/spider/media.scss */
+  .background {
+    height: 369px !important;
+  }
+
+  /* line 11, ../../sass/spider/media.scss */
+  #header-menu-links {
+    margin-top: 115px;
+    width: 100%;
+  }
+  /* line 15, ../../sass/spider/media.scss */
+  #header-menu-links > li {
+    display: block;
+    width: 100%;
+  }
+
+  /* line 21, ../../sass/spider/media.scss */
+  .section-title {
+    border-bottom: 5px solid #69923b !important;
+    margin-bottom: 15px;
+  }
+  /* line 25, ../../sass/spider/media.scss */
+  .section-title > h5 {
+    border-bottom: 0px !important;
+    padding-left: 0px !important;
+  }
+
+  /* line 30, ../../sass/spider/media.scss */
+  #twitter-container {
+    display: none;
+  }
+
+  /* line 36, ../../sass/spider/media.scss */
+  .news-item .title {
+    margin-top: 15px;
+  }
+  /* line 39, ../../sass/spider/media.scss */
+  .news-item .date {
+    width: 100%;
+  }
+
+  /* line 45, ../../sass/spider/media.scss */
+  footer {
+    position: inherit !important;
+  }
+  /* line 48, ../../sass/spider/media.scss */
+  footer #logoUsach {
+    display: none !important;
+  }
+  /* line 56, ../../sass/spider/media.scss */
+  footer #colaboradores > .list > div {
+    display: inline-block;
+    min-height: 70px;
+  }
+
+  /* line 63, ../../sass/spider/media.scss */
+  #wrapper-ghost {
+    height: 15px !important;
+  }
+}
+/* max-width 640px, mobile-only styles, use when QAing mobile issues */
+/* min-width 641px, medium screens */
+/* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
+/* min-width 1025px, large screens */
+/* min-width 1025px and max-width 1440px, use when QAing large screen-only issues */
+/* min-width 1441px, xlarge screens */
+/* min-width 1441px and max-width 1920px, use when QAing xlarge screen-only issues */
+/* min-width 1921px, xlarge screens */

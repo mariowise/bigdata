@@ -1,0 +1,21 @@
+
+// Variables locales
+@import "variables";
+
+// Funciones o mixins
+@import "mixins";
+
+// Esquema general de template
+@import "layout";
+
+// Header
+@import "header";
+
+// Páginas
+@import "page";
+
+// Footer
+@import "footer";
+
+// Responsive fix
+@import "media";

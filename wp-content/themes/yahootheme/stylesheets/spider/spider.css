@@ -1,0 +1,503 @@
+/* line 2, ../../sass/spider/mixins.scss */
+.clearfix:before, .clearfix:after {
+  content: " ";
+  display: table;
+}
+
+/* line 6, ../../sass/spider/mixins.scss */
+.clearfix:after {
+  clear: both;
+}
+
+/* line 9, ../../sass/spider/mixins.scss */
+.clearfix {
+  *zoom: 1;
+}
+
+/* line 6, ../../sass/spider/layout.scss */
+html, body {
+  height: 100%;
+}
+
+/* line 9, ../../sass/spider/layout.scss */
+body {
+  font-family: "Noto Sans", sans-serif;
+  margin: 0px;
+}
+
+/* line 13, ../../sass/spider/layout.scss */
+#wrapper {
+  min-height: 100%;
+  position: relative;
+}
+
+/* line 17, ../../sass/spider/layout.scss */
+#wrapper-ghost {
+  height: 230px;
+  width: 100%;
+}
+
+/* line 21, ../../sass/spider/layout.scss */
+footer {
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+  /*height: $footer_height;*/
+}
+/* line 29, ../../sass/spider/layout.scss */
+footer #colaboradores > .list > div {
+  display: inline-block;
+}
+
+/* line 3, ../../sass/spider/header.scss */
+#header > .background {
+  position: absolute;
+  background-image: url(../img/headerbg.jpg);
+  width: 100%;
+  height: 62px;
+  border-bottom: 5px solid #69923b;
+}
+/* line 9, ../../sass/spider/header.scss */
+#header > .background > canvas {
+  height: 100%;
+  width: 100%;
+}
+/* line 14, ../../sass/spider/header.scss */
+#header #logo {
+  font-family: "Lily Script One", cursive;
+  color: white;
+  line-height: 60px;
+  font-size: 28px;
+}
+/* line 19, ../../sass/spider/header.scss */
+#header #logo > new {
+  color: #69923b;
+}
+/* line 30, ../../sass/spider/header.scss */
+#header #logo img {
+  width: 225px;
+  height: auto;
+  position: absolute;
+  top: 17px;
+  z-index: 10;
+}
+/* line 37, ../../sass/spider/header.scss */
+#header > #logo-menu {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+/* line 42, ../../sass/spider/header.scss */
+#header-menu {
+  min-height: 60px;
+}
+
+/* line 45, ../../sass/spider/header.scss */
+#header-menu-links {
+  margin-bottom: 0px;
+  float: right;
+  font-size: 14px;
+}
+/* line 49, ../../sass/spider/header.scss */
+#header-menu-links li {
+  display: inline-block;
+}
+/* line 52, ../../sass/spider/header.scss */
+#header-menu-links li a {
+  color: white;
+  height: 60px;
+  line-height: 60px;
+  padding: 0px 10px;
+  display: block;
+  font-family: "Oswald", sans-serif;
+}
+/* line 60, ../../sass/spider/header.scss */
+#header-menu-links li:hover, #header-menu-links li.active {
+  background-color: #69923b;
+  color: #69923b;
+}
+
+/* line 68, ../../sass/spider/header.scss */
+.orbit-container .orbit-timer .orbit-progress {
+  background-color: rgba(22, 139, 6, 0.5);
+}
+
+/* line 71, ../../sass/spider/header.scss */
+.slideshow-wrapper {
+  box-shadow: 0px 6px 5px #5f5757;
+  height: 293px;
+  overflow-y: hidden;
+}
+
+/* line 2, ../../sass/spider/page.scss */
+#content {
+  background: #e5e5e5;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #e5e5e5 0%, white 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #e5e5e5), color-stop(100%, white));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #e5e5e5 0%, white 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, #e5e5e5 0%, white 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #e5e5e5 0%, white 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #e5e5e5 0%, #ffffff 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e5e5e5', endColorstr='#ffffff',GradientType=0 );
+  /* IE6-9 */
+}
+
+/* line 12, ../../sass/spider/page.scss */
+.main {
+  color: #6b6b6b;
+}
+
+/* line 15, ../../sass/spider/page.scss */
+.section-title {
+  border-bottom: 1px solid #d5d5d5;
+}
+/* line 17, ../../sass/spider/page.scss */
+.section-title > h5 {
+  display: inline;
+  border-bottom: 5px solid #69923b;
+  padding: 0px 100px 0px 15px;
+  line-height: 26px;
+  font-family: "Oswald", sans-serif;
+}
+
+/* line 25, ../../sass/spider/page.scss */
+.row.news-item {
+  margin-top: 20px;
+  font-size: 14px;
+}
+/* line 28, ../../sass/spider/page.scss */
+.row.news-item .picture {
+  /*border: 1px dotted rgb(200,200,200);*/
+  width: 180px;
+  height: 135px;
+  text-align: center;
+  line-height: 130px;
+  color: gainsboro;
+  overflow-x: hidden;
+}
+/* line 36, ../../sass/spider/page.scss */
+.row.news-item .picture img {
+  height: 100%;
+  width: auto;
+}
+/* line 41, ../../sass/spider/page.scss */
+.row.news-item .title {
+  font-size: 22px;
+  font-weight: bolder;
+  line-height: 23px;
+}
+/* line 46, ../../sass/spider/page.scss */
+.row.news-item .description {
+  font-size: 12px;
+  line-height: 14px;
+}
+/* line 50, ../../sass/spider/page.scss */
+.row.news-item .description p {
+  text-align: left;
+}
+/* line 54, ../../sass/spider/page.scss */
+.row.news-item .date {
+  float: right;
+}
+
+/* line 58, ../../sass/spider/page.scss */
+.date {
+  font-family: "Oswald", sans-serif;
+  color: #6b6b6b;
+  text-align: center;
+  border: 1px solid #c8c8c8;
+  background-color: #f0f0f0;
+  padding: 10px 0px;
+  display: inline;
+  width: 63px;
+}
+/* line 68, ../../sass/spider/page.scss */
+.date > div:first-child {
+  font-size: 20px;
+  margin: 0px 0px 10px 0px;
+}
+/* line 72, ../../sass/spider/page.scss */
+.date > div:last-child {
+  font-size: 10px;
+}
+
+/* line 76, ../../sass/spider/page.scss */
+#publicaciones {
+  margin: 20px 0px;
+  padding: 20px 0px;
+  min-height: 100px;
+}
+/* line 80, ../../sass/spider/page.scss */
+#publicaciones .section-title {
+  margin-bottom: 30px;
+}
+
+/* line 84, ../../sass/spider/page.scss */
+#sponsor-container {
+  text-align: center;
+}
+/* line 86, ../../sass/spider/page.scss */
+#sponsor-container div {
+  margin-top: 10px;
+}
+/* line 88, ../../sass/spider/page.scss */
+#sponsor-container div img {
+  width: 130px;
+}
+
+/* line 93, ../../sass/spider/page.scss */
+div.just-text {
+  margin-top: 15px;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: justify;
+}
+
+/* line 99, ../../sass/spider/page.scss */
+.post {
+  margin-top: 50px;
+}
+/* line 101, ../../sass/spider/page.scss */
+.post .title > h2 {
+  font-family: "Oswald", sans-serif;
+  color: #69923b;
+}
+
+/* line 106, ../../sass/spider/page.scss */
+#post-content, .page-content {
+  font-size: 13px;
+}
+/* line 108, ../../sass/spider/page.scss */
+#post-content div, .page-content div, #post-content p, .page-content p {
+  font-weight: normal;
+  font-size: 1em;
+  line-height: 1.6;
+  margin-bottom: 1.25em;
+  text-rendering: optimizeLegibility;
+}
+
+/* line 116, ../../sass/spider/page.scss */
+.post-link-move a {
+  color: #69923b;
+}
+
+/* line 120, ../../sass/spider/page.scss */
+.page-header {
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+  color: #69923b;
+  font-size: 24px;
+  padding: 20px 0px 15px 0px;
+  background-color: #ebebeb;
+  border-bottom: 1px solid #d2d2d2;
+}
+
+/* line 129, ../../sass/spider/page.scss */
+.page-content {
+  margin-top: 30px;
+}
+
+/* line 133, ../../sass/spider/page.scss */
+.people {
+  margin-bottom: 30px;
+  text-align: left;
+}
+/* line 137, ../../sass/spider/page.scss */
+.people h2 {
+  color: #69923b;
+}
+/* line 143, ../../sass/spider/page.scss */
+.people .contact {
+  font-size: 13px;
+  line-height: 18px;
+  color: #808080;
+  margin-bottom: 10px;
+}
+/* line 149, ../../sass/spider/page.scss */
+.people img.photo {
+  -webkit-box-shadow: 0px 0px 7px 0px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow: 0px 0px 7px 0px rgba(50, 50, 50, 0.75);
+  box-shadow: 0px 0px 7px 0px rgba(50, 50, 50, 0.75);
+}
+/* line 154, ../../sass/spider/page.scss */
+.people div.photo {
+  border-radius: 80px;
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow: 0px 0px 10px 0px rgba(50, 50, 50, 0.75);
+  box-shadow: 0px 0px 10px 0px rgba(50, 50, 50, 0.75);
+  overflow: hidden;
+  height: 137px;
+}
+/* line 162, ../../sass/spider/page.scss */
+.people .small-3 {
+  text-align: center;
+  padding-top: 30px;
+}
+/* line 166, ../../sass/spider/page.scss */
+.people .student {
+  height: 330px;
+}
+/* line 169, ../../sass/spider/page.scss */
+.people .student:last-child {
+  float: left;
+}
+
+/* line 173, ../../sass/spider/page.scss */
+.people.students {
+  text-align: center;
+}
+
+/* line 2, ../../sass/spider/footer.scss */
+footer {
+  color: #69923b;
+}
+
+/* line 5, ../../sass/spider/footer.scss */
+footer > div {
+  background-color: #ebebeb;
+}
+
+/* line 9, ../../sass/spider/footer.scss */
+#footer-big #colaboradores div:nth-child(1) {
+  margin-bottom: 5px;
+}
+/* line 12, ../../sass/spider/footer.scss */
+#footer-big #colaboradores img {
+  float: left;
+  width: 95px;
+  height: auto;
+  margin-left: 15px;
+  margin-bottom: 5px;
+}
+/* line 19, ../../sass/spider/footer.scss */
+#footer-big #logoUsach {
+  width: 109px;
+  margin-left: 30px;
+  margin-top: 18px;
+}
+
+/* line 25, ../../sass/spider/footer.scss */
+#footer-big > .row > div > div:first-child {
+  margin-top: 20px;
+}
+
+/* line 28, ../../sass/spider/footer.scss */
+#footer-big ul {
+  margin-top: 10px;
+}
+
+/* line 31, ../../sass/spider/footer.scss */
+#footer-small > .row > div {
+  font-size: 11px;
+  line-height: 20px;
+  text-align: center;
+  color: #8d8c8c;
+}
+/* line 37, ../../sass/spider/footer.scss */
+#footer-small > .row > div > a {
+  color: #646464;
+}
+
+/* line 41, ../../sass/spider/footer.scss */
+.social-link {
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  border-radius: 30px;
+  display: inline-block;
+  margin: 10px 0px;
+  font-size: 20px;
+  background-color: #d6d6d6;
+}
+/* line 52, ../../sass/spider/footer.scss */
+.social-link a {
+  color: #5a5a5a;
+}
+/* line 54, ../../sass/spider/footer.scss */
+.social-link a:hover {
+  color: #6e81ca;
+}
+
+/* Define mobile styles */
+@media only screen and (max-width: 40em) {
+  /* line 5, ../../sass/spider/media.scss */
+  .slideshow-wrapper {
+    display: none;
+  }
+
+  /* line 8, ../../sass/spider/media.scss */
+  .background {
+    height: 369px !important;
+  }
+
+  /* line 11, ../../sass/spider/media.scss */
+  #header-menu-links {
+    margin-top: 115px;
+    width: 100%;
+  }
+  /* line 15, ../../sass/spider/media.scss */
+  #header-menu-links > li {
+    display: block;
+    width: 100%;
+  }
+
+  /* line 21, ../../sass/spider/media.scss */
+  .section-title {
+    border-bottom: 5px solid #69923b !important;
+    margin-bottom: 15px;
+  }
+  /* line 25, ../../sass/spider/media.scss */
+  .section-title > h5 {
+    border-bottom: 0px !important;
+    padding-left: 0px !important;
+  }
+
+  /* line 30, ../../sass/spider/media.scss */
+  #twitter-container {
+    display: none;
+  }
+
+  /* line 36, ../../sass/spider/media.scss */
+  .news-item .title {
+    margin-top: 15px;
+  }
+  /* line 39, ../../sass/spider/media.scss */
+  .news-item .date {
+    width: 100%;
+  }
+
+  /* line 45, ../../sass/spider/media.scss */
+  footer {
+    position: inherit !important;
+  }
+  /* line 48, ../../sass/spider/media.scss */
+  footer #logoUsach {
+    display: none !important;
+  }
+  /* line 56, ../../sass/spider/media.scss */
+  footer #colaboradores > .list > div {
+    display: inline-block;
+    min-height: 70px;
+  }
+
+  /* line 63, ../../sass/spider/media.scss */
+  #wrapper-ghost {
+    height: 15px !important;
+  }
+}
+/* max-width 640px, mobile-only styles, use when QAing mobile issues */
+/* min-width 641px, medium screens */
+/* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
+/* min-width 1025px, large screens */
+/* min-width 1025px and max-width 1440px, use when QAing large screen-only issues */
+/* min-width 1441px, xlarge screens */
+/* min-width 1441px and max-width 1920px, use when QAing xlarge screen-only issues */
+/* min-width 1921px, xlarge screens */

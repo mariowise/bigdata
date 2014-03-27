@@ -19,13 +19,13 @@
 					<div class="preloader"></div>
 					<ul data-orbit="" data-options="timer_speed:4500; bullets:false; animation: &#39;fade&#39;;resume_on_mouseout: true;slide_number: false" class="" style="height: 375px">
 						<li>
-							<img src="<?php bloginfo('template_directory'); ?>/img/carr02.jpg">
+							<img src="<?php bloginfo('template_directory'); ?>/img/carr05.png">
 						</li>
 						<li>
 							<img src="<?php bloginfo('template_directory'); ?>/img/carr03.jpg">
 						</li>
 						<li>
-							<img src="<?php bloginfo('template_directory'); ?>/img/carr04.jpg">
+							<img src="<?php bloginfo('template_directory'); ?>/img/carr02.jpg">
 						</li>
 					</ul>
 					<div class="orbit-timer">
@@ -38,11 +38,11 @@
 		</div>
 		
 		<!-- MAIN -->
-		<div id="main" class="row">
-
-			<div class="large-8 columns">
+		<div class="row main" style="margin-top: 30px;">
+			<div class="large-12 columns">
+				
 				<div class="section-title">
-					<h5>GRUPO DE INVESTIGACIÓN DE SISTEMAS ESCALABLES Y APLICACIONES</h5>
+					<h5>Research in Scalable and Parallel online Distributed Systems</h5>
 				</div>
 				<div class="just-text">
 					<p>
@@ -56,30 +56,42 @@
 					</p>
 				</div>
 
+			</div>
+		</div>
+		<div class="row main">
+
+			<div class="large-8 columns">
+				
 				<div class="section-title">
-					<h5>NOTICIAS</h5>
+					<h5>NEWS</h5>
 				</div>
 				<div>
+
+					<?php $count = 0;?>
+
+					<?php getPostsByCategoryName('noticias'); ?>
 
 					<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
 					<div class="row news-item">
-						<div class="small-4 columns">
+						<div class="large-4 columns">
 							<div class="picture">
 								<?php the_post_thumbnail('wpf-featured'); ?>
 							</div>
 						</div>
-						<div class="small-6 columns body">
+						<div class="large-6 columns body">
 							<div class="title"><a href="<?php the_permalink();?>"><?php the_title();?></a></div>
 							<div class="description"><p><?php the_excerpt();?></p></div>
 						</div>
-						<div class="small-2 columns">
+						<div class="large-2 columns">
 							<div class="date">
 								<div><?php the_time('j');?></div>
 								<div><?php the_time('m');?>-<?php the_time('Y');?></div>
 							</div>
 						</div>
 					</div>
+
+					<?php $count++; if($count == 4) break;?>
 
 					<?php endwhile;?>
 					

@@ -1,0 +1,58 @@
+
+footer {
+	color: $header_barcolor;
+}
+footer > div {
+	background-color: $footer_grey;
+}
+#footer-big {
+	& #colaboradores div:nth-child(1) {
+		margin-bottom: 5px;
+	}
+	& #colaboradores img {
+		float: left;
+		width: 95px;
+		height: auto;
+		margin-left: 15px;
+		margin-bottom: 5px;
+	}
+	& #logoUsach {
+		width: 109px;
+		margin-left: 30px;
+		margin-top: 18px;
+	}
+}
+#footer-big > .row > div > div:first-child {
+	margin-top: 20px;
+}
+#footer-big ul {
+	margin-top: 10px;
+}
+#footer-small > .row > div {
+	font-size: 11px;
+	line-height: 20px;
+	text-align: center;
+	color: rgb(141, 140, 140);
+	
+	& > a {
+		color: $font_grey;
+	}
+}
+.social-link {
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	border-radius: 30px;
+	display: inline-block;
+	margin: 10px 0px;
+	font-size: 20px;
+	background-color: rgb(214, 214, 214);
+	
+	& a {
+		color: rgb(90,90,90);
+		&:hover {
+			color: rgb(110,129,202);
+		}	
+	}
+}
